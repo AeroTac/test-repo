@@ -13,14 +13,6 @@
       "type": "library",
       "required": true,
       "note": "Testing utilities library"
-    },
-    {
-      "name": "AeroTac/missing-dep",
-      "source": "github:AeroTac/missing-dep",
-      "version": "1.0.0",
-      "type": "library",
-      "required": true,
-      "note": "This dependency does not exist - for testing error handling"
     }
   ]
 }
