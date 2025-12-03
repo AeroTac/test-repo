@@ -1,11 +1,18 @@
 {
   "repository": "AeroTac/test-repo",
   "version": "1.0.0",
+  "type": "service",
+  "description": "Test repository for meta-repo system",
+  "language": "TypeScript",
+  "packageManager": "npm",
   "dependencies": [
     {
       "name": "AeroTac/test-lib",
       "source": "github:AeroTac/test-lib",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "type": "library",
+      "required": true,
+      "note": "Testing utilities library"
     }
   ]
 }
